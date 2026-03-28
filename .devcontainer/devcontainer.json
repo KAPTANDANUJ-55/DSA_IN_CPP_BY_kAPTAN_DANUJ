@@ -1,0 +1,14 @@
+{
+  "name": "C++ DSA BY Kaptan Danuj",
+  "image": "mcr.microsoft.com/devcontainers/cpp:latest",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-vscode.cpptools",
+        "ms-vscode.cpptools-themes",
+        "formulahendry.code-runner"
+      ]
+    }
+  },
+  "postCreateCommand": "g++ --version"
+}
